@@ -9,6 +9,14 @@
 ```js
 class App extends Component {}
 ```
++ A component returns a set of React elements that should appear on the screen
+
++ Allows spliting of UI into independent, reusable pieces (objectify UI)
+
++ Component accepts inputs
+
++ **User-defined components must always start with captial letter**
+  + tags with lowercase are treated as DOM tags
 
 ## Rendering to the DOM
 index.js
