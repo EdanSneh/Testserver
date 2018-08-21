@@ -1,10 +1,9 @@
 # Component Lifecycle
 
-1. Component doesnt exist
 2. mount component
-3. existing
+3. Updating
 4. unmount component
-5. disapearing
+
 
 ## Mounting stage
 Methods called when method inserted into DOM:
@@ -14,3 +13,12 @@ Methods called when method inserted into DOM:
 - componentDidMount()
 - ~~Depricated: componentWillMount()~~
 
+## Updating Lifecycle
+Methods called when updating
+- getDerivedStateFromProps()
+- shouldComponentUpdate()
+- render()
+- getSnapshotBeforeUpdate()
+    - Good for saving information
+- componentDidUpdate()
+- ~~Depricated: componentWillReceiveProps() componentWillUpdate()~~
